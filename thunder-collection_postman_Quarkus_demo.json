@@ -1,0 +1,175 @@
+{
+    "info": {
+        "_postman_id": "52b724a4-e2b1-4d5b-b9b3-7250b3c92163",
+        "name": "Quarkus_demo",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "description": ""
+    },
+    "item": [
+        {
+            "name": "http://localhost:8080",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/mkt_expansion",
+                    "path": [
+                        "mkt_expansion"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080"
+                }
+            }
+        },
+        {
+            "name": "http://localhost:8080/mkt_expansion",
+            "request": {
+                "method": "POST",
+                "url": {
+                    "raw": "http://localhost:8080/mkt_expansion",
+                    "path": [
+                        "mkt_expansion"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080"
+                },
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "text"
+                        }
+                    },
+                    "raw": "ddd"
+                }
+            }
+        },
+        {
+            "name": "http://localhost:8080/mkt_expansion//China?India",
+            "request": {
+                "method": "PUT",
+                "url": {
+                    "raw": "http://localhost:8080/mkt_expansion/abc?newMktName=uuu",
+                    "query": [
+                        {
+                            "key": "newMktName",
+                            "value": "uuu"
+                        }
+                    ],
+                    "variable": [],
+                    "path": [
+                        "mkt_expansion",
+                        "abc"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080"
+                }
+            }
+        },
+        {
+            "name": "http://localhost:8080/mkt_expansion/uuu",
+            "request": {
+                "method": "DELETE",
+                "url": {
+                    "raw": "http://localhost:8080/mkt_expansion/vvv",
+                    "path": [
+                        "mkt_expansion",
+                        "vvv"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080"
+                }
+            }
+        },
+        {
+            "name": "http://localhost:8080/mkt_exp",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/mkt_exp",
+                    "path": [
+                        "mkt_exp"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080"
+                }
+            }
+        },
+        {
+            "name": "http://localhost:8080/mkt_exp",
+            "request": {
+                "method": "POST",
+                "url": {
+                    "raw": "http://localhost:8080/mkt_exp",
+                    "path": [
+                        "mkt_exp"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080"
+                },
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\n   \"id\":12,\n   \"mktName\": \"cc\", \n   \"country\": \"ww\", \n   \"state\": \"delhi\", \n   \"code\": \"DUO\" \n}"
+                }
+            }
+        },
+        {
+            "name": "http://localhost:8080/mkt_exp/1",
+            "request": {
+                "method": "DELETE",
+                "url": {
+                    "raw": "http://localhost:8080/mkt_exp/3",
+                    "path": [
+                        "mkt_exp",
+                        "3"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080"
+                }
+            }
+        },
+        {
+            "name": "http://localhost:8080/mkt_exp/1",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/mkt_exp/12",
+                    "path": [
+                        "mkt_exp",
+                        "12"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080"
+                }
+            }
+        }
+    ]
+}
