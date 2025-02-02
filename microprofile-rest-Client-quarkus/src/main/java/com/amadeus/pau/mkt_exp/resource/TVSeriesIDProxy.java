@@ -16,5 +16,4 @@ public interface TVSeriesIDProxy {
     @GET
     @Path("/{id}")
     TVSeries getTVSeriesById(@PathParam("id") int id);
-
 }
