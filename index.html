@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ 
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  
+  $.get("http://localhost:8080/microprofile-rest-client-quarkus-cors/tvseries/120", function(data, status){
+    alert("Data: " + data + "\nStatus: " + status);
+  });
+
+});
+
+</script>
+
+</body>
+</html>
